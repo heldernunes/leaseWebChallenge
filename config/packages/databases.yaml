@@ -1,0 +1,10 @@
+parameters:
+  databases:
+    php:
+      driver: pdo_mysql
+      host: 172.26.0.4
+      port: 3306
+      dbname: php
+      user: php
+      password: php
+      charset: UTF8
