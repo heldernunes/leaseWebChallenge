@@ -6,7 +6,6 @@ use App\EventSubscriber\Strategy\InvalidArgumentsException;
 use App\Model\Response\ErrorResponseModel;
 use App\Tests\Unit\EventSubscriber\ExceptionSubscriberDataProvider;
 use Exception;
-use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -33,6 +32,9 @@ class InvalidArgumentExceptionTest extends TestCase
         $this->assertEquals($expected->getContent(), $result->getContent());
     }
 
+    /**
+     * @SuppressWarnings(PHPMD.MissingImport)
+     */
     public function getResponseDataProvider(): array
     {
         $provider = new ExceptionSubscriberDataProvider();

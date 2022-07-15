@@ -1,0 +1,632 @@
+[2022-07-15 19:53:41,026] Helders-MBP.lan/INFO/locust.main: Run time limit set to 60 seconds
+[2022-07-15 19:53:41,027] Helders-MBP.lan/INFO/locust.main: Starting Locust 2.10.1
+[2022-07-15 19:53:41,028] Helders-MBP.lan/INFO/locust.runners: Ramping to 1 users at a rate of 5.00 per second
+[2022-07-15 19:53:41,029] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 1} (1 total users)
+[2022-07-15 19:53:41,030] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 1} ({"User": 0} already running)...
+[2022-07-15 19:53:41,031] Helders-MBP.lan/DEBUG/locust.runners: 1 users spawned
+[2022-07-15 19:53:41,031] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:53:41,031] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-07-15 19:53:41,031] Helders-MBP.lan/INFO/locust.runners: All users spawned: {"User": 1} (1 total users)
+[2022-07-15 19:53:41,034] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:54:07,995] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 1
+[2022-07-15 19:54:10,548] Helders-MBP.lan/INFO/locust.main: writing html report to file: reports/spapi_locust_report.html
+[2022-07-15 19:54:10,552] Helders-MBP.lan/DEBUG/locust.main: Running teardowns...
+[2022-07-15 19:54:10,552] Helders-MBP.lan/INFO/locust.main: Shutting down (exit code 0)
+[2022-07-15 19:54:10,552] Helders-MBP.lan/DEBUG/locust.main: Cleaning up runner...
+[2022-07-15 19:54:10,552] Helders-MBP.lan/DEBUG/locust.runners: Stopping all users
+[2022-07-15 19:54:10,553] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-07-15 19:54:36,747] Helders-MBP.lan/INFO/locust.main: Run time limit set to 60 seconds
+[2022-07-15 19:54:36,748] Helders-MBP.lan/INFO/locust.main: Starting Locust 2.10.1
+[2022-07-15 19:54:36,756] Helders-MBP.lan/INFO/locust.runners: Ramping to 1 users at a rate of 5.00 per second
+[2022-07-15 19:54:36,758] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 1} (1 total users)
+[2022-07-15 19:54:36,758] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 1} ({"User": 0} already running)...
+[2022-07-15 19:54:36,761] Helders-MBP.lan/DEBUG/locust.runners: 1 users spawned
+[2022-07-15 19:54:36,761] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:54:36,762] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-07-15 19:54:36,762] Helders-MBP.lan/INFO/locust.runners: All users spawned: {"User": 1} (1 total users)
+[2022-07-15 19:54:36,771] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:54:54,129] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:54:57,331] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:01,507] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:01,847] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:02,238] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:02,588] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:03,036] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:03,506] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:03,968] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:04,423] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:04,797] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:05,174] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:05,593] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:06,025] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:06,378] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:06,726] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:07,086] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:07,444] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:07,781] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:08,094] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:08,459] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:08,779] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:09,110] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:09,399] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:09,699] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:10,030] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:10,373] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:10,721] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:11,079] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:11,423] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:11,785] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:12,145] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:12,490] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:12,963] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:13,433] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:13,762] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:14,132] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:14,441] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:14,780] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:15,166] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:15,466] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:15,798] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:16,246] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:16,554] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:16,896] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:17,256] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:17,561] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:17,919] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:18,275] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:18,631] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:19,015] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:19,371] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:19,698] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:20,008] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:20,356] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:20,701] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:21,072] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:21,423] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:21,789] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:22,148] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:22,519] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:22,884] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:23,233] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:23,590] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:23,957] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:24,340] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:24,670] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:25,046] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:25,422] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:25,774] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:26,112] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:26,463] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:26,900] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:27,270] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:27,827] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:28,181] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:28,644] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:28,981] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:29,304] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:29,668] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:30,034] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:30,398] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:30,761] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:31,127] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:31,485] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:31,828] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:32,200] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:32,565] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:32,938] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:33,268] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:33,638] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:33,947] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:34,278] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:34,571] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:34,903] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:35,298] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:35,610] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:35,952] Helders-MBP.lan/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-07-15 19:55:35,953] Helders-MBP.lan/DEBUG/locust.runners: Stopping all users
+[2022-07-15 19:55:35,954] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-07-15 19:55:35,966] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:55:35,968] Helders-MBP.lan/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-07-15 19:55:36,089] Helders-MBP.lan/INFO/locust.main: writing html report to file: reports/spapi_locust_report.html
+[2022-07-15 19:55:36,094] Helders-MBP.lan/DEBUG/locust.main: Running teardowns...
+[2022-07-15 19:55:36,094] Helders-MBP.lan/INFO/locust.main: Shutting down (exit code 0)
+[2022-07-15 19:55:36,094] Helders-MBP.lan/DEBUG/locust.main: Cleaning up runner...
+[2022-07-15 19:58:00,077] Helders-MBP.lan/INFO/locust.main: Run time limit set to 60 seconds
+[2022-07-15 19:58:00,078] Helders-MBP.lan/INFO/locust.main: Starting Locust 2.10.1
+[2022-07-15 19:58:00,079] Helders-MBP.lan/INFO/locust.runners: Ramping to 50 users at a rate of 5.00 per second
+[2022-07-15 19:58:00,080] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 5} (5 total users)
+[2022-07-15 19:58:00,080] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 0} already running)...
+[2022-07-15 19:58:00,081] Helders-MBP.lan/DEBUG/locust.runners: 5 users spawned
+[2022-07-15 19:58:00,082] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:00,082] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 5 still running
+[2022-07-15 19:58:00,087] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:00,101] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:00,101] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:00,102] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:00,102] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:00,273] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,414] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,482] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,610] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,737] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,879] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:00,972] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,069] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,080] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 10} (10 total users)
+[2022-07-15 19:58:01,081] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 5} already running)...
+[2022-07-15 19:58:01,082] Helders-MBP.lan/DEBUG/locust.runners: 10 users spawned
+[2022-07-15 19:58:01,083] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:01,083] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 10 still running
+[2022-07-15 19:58:01,090] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:01,090] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:01,091] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:01,092] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:01,093] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:01,153] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,251] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,343] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,441] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,551] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,604] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,816] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,826] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:01,928] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,043] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,083] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 15} (15 total users)
+[2022-07-15 19:58:02,083] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 10} already running)...
+[2022-07-15 19:58:02,084] Helders-MBP.lan/DEBUG/locust.runners: 15 users spawned
+[2022-07-15 19:58:02,084] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:02,084] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 15 still running
+[2022-07-15 19:58:02,094] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:02,094] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:02,095] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:02,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:02,097] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:02,143] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,238] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,317] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,486] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,540] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,610] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,778] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,842] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:02,920] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,086] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 20} (20 total users)
+[2022-07-15 19:58:03,087] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 15} already running)...
+[2022-07-15 19:58:03,088] Helders-MBP.lan/DEBUG/locust.runners: 20 users spawned
+[2022-07-15 19:58:03,088] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:03,088] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 20 still running
+[2022-07-15 19:58:03,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:03,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:03,097] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:03,097] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:03,098] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:03,113] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,172] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,256] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,360] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,497] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,568] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,719] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,810] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:03,950] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,051] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,086] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 25} (25 total users)
+[2022-07-15 19:58:04,086] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 20} already running)...
+[2022-07-15 19:58:04,087] Helders-MBP.lan/DEBUG/locust.runners: 25 users spawned
+[2022-07-15 19:58:04,087] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:04,088] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 25 still running
+[2022-07-15 19:58:04,094] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:04,095] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:04,095] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:04,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:04,097] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:04,180] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,316] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,405] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,506] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,630] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,748] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,837] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:04,933] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,057] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,086] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 30} (30 total users)
+[2022-07-15 19:58:05,087] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 25} already running)...
+[2022-07-15 19:58:05,089] Helders-MBP.lan/DEBUG/locust.runners: 30 users spawned
+[2022-07-15 19:58:05,089] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:05,089] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 30 still running
+[2022-07-15 19:58:05,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:05,097] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:05,098] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:05,099] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:05,099] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:05,154] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,253] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,376] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,470] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,566] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,702] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,814] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:05,901] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,052] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,089] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 35} (35 total users)
+[2022-07-15 19:58:06,090] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 30} already running)...
+[2022-07-15 19:58:06,092] Helders-MBP.lan/DEBUG/locust.runners: 35 users spawned
+[2022-07-15 19:58:06,092] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:06,093] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 35 still running
+[2022-07-15 19:58:06,102] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:06,103] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:06,104] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:06,105] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:06,105] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:06,164] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,268] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,383] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,486] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,652] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,745] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,879] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:06,985] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,079] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,090] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 40} (40 total users)
+[2022-07-15 19:58:07,091] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 35} already running)...
+[2022-07-15 19:58:07,092] Helders-MBP.lan/DEBUG/locust.runners: 40 users spawned
+[2022-07-15 19:58:07,092] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:07,092] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 40 still running
+[2022-07-15 19:58:07,101] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:07,102] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:07,103] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:07,103] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:07,104] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:07,243] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,339] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,467] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,629] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,771] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:07,956] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:08,091] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 45} (45 total users)
+[2022-07-15 19:58:08,092] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 40} already running)...
+[2022-07-15 19:58:08,094] Helders-MBP.lan/DEBUG/locust.runners: 45 users spawned
+[2022-07-15 19:58:08,094] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:08,095] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 45 still running
+[2022-07-15 19:58:08,106] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:08,107] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:08,107] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:08,109] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:08,110] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:08,167] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:08,381] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:08,448] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:08,690] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:08,831] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,007] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,092] Helders-MBP.lan/DEBUG/locust.runners: Ramping to {"User": 50} (50 total users)
+[2022-07-15 19:58:09,092] Helders-MBP.lan/DEBUG/locust.runners: Spawning additional {"User": 5} ({"User": 45} already running)...
+[2022-07-15 19:58:09,095] Helders-MBP.lan/DEBUG/locust.runners: 50 users spawned
+[2022-07-15 19:58:09,095] Helders-MBP.lan/DEBUG/locust.runners: All users of class User spawned
+[2022-07-15 19:58:09,095] Helders-MBP.lan/DEBUG/locust.runners: 0 users have been stopped, 50 still running
+[2022-07-15 19:58:09,096] Helders-MBP.lan/INFO/locust.runners: All users spawned: {"User": 50} (50 total users)
+[2022-07-15 19:58:09,107] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:09,108] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:09,109] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:09,110] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:09,111] Helders-MBP.lan/DEBUG/urllib3.connectionpool: Starting new HTTP connection (1): php.docker.localhost:8000
+[2022-07-15 19:58:09,219] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,326] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,501] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,733] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:09,934] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:10,180] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:10,352] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:10,580] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:10,740] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:10,988] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:11,178] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:11,409] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:11,584] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:11,805] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:11,979] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,147] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,299] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,467] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,575] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,735] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:12,888] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,093] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,238] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,424] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,604] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,788] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:13,901] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,071] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,240] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,432] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,620] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,749] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:14,933] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:15,209] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:15,444] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:15,776] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:15,955] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:16,095] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:16,281] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:16,534] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:16,627] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:16,925] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:17,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:17,335] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:17,474] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:17,649] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:17,835] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,036] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,191] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,435] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,582] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,769] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:18,941] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:19,184] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:19,356] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:19,550] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:19,716] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:19,880] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:20,091] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:20,294] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:20,491] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:20,893] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,069] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,276] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,435] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,669] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,791] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:21,939] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,147] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,338] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,476] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,625] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,795] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:22,970] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,172] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,269] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,490] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,618] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,794] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:23,947] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:24,144] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:24,342] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:24,475] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:24,643] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:24,820] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,001] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,177] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,339] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,531] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,701] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:25,928] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,070] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,250] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,402] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,598] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,764] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:26,966] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,135] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,269] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,442] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,616] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,725] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:27,966] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,079] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,264] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,420] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,592] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,770] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:28,903] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:29,137] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:29,341] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:29,578] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:29,778] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:29,994] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,139] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,318] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,505] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,615] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,846] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:30,960] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:31,137] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:31,293] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:31,520] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:31,694] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:31,830] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,040] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,174] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,353] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,505] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,695] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,836] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:32,996] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:33,169] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:33,311] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:33,486] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:33,666] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:33,863] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,007] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,274] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,380] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,637] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,763] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:34,962] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:35,159] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:35,428] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:35,763] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:35,987] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:36,318] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:37,978] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:38,170] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:38,653] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:38,809] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:39,096] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:39,607] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:40,164] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:40,527] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:40,859] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:41,481] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:41,760] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:42,157] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:42,368] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:42,623] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:42,817] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:43,033] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:43,186] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:43,500] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:43,656] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:43,902] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:44,146] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:44,429] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:44,709] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:45,160] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:45,625] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:46,597] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:47,012] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:47,308] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:48,363] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:48,634] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:48,990] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:49,210] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:49,636] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:50,014] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:50,419] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:50,863] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:51,118] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:51,457] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:51,753] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:52,039] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:52,397] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:52,785] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:53,073] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:53,395] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:53,619] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:53,885] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:54,160] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:54,643] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:54,894] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:55,384] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:55,846] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:56,186] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:56,575] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:56,803] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:57,034] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:57,262] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:57,456] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:57,704] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:57,853] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:58,489] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:58,702] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:58,956] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:59,209] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:59,417] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:59,600] Helders-MBP.lan/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-07-15 19:58:59,600] Helders-MBP.lan/DEBUG/locust.runners: Stopping all users
+[2022-07-15 19:58:59,601] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-07-15 19:58:59,601] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-1
+[2022-07-15 19:58:59,602] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-2
+[2022-07-15 19:58:59,602] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-3
+[2022-07-15 19:58:59,602] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-4
+[2022-07-15 19:58:59,602] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-5
+[2022-07-15 19:58:59,603] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-6
+[2022-07-15 19:58:59,603] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-7
+[2022-07-15 19:58:59,605] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-8
+[2022-07-15 19:58:59,605] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-9
+[2022-07-15 19:58:59,605] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-10
+[2022-07-15 19:58:59,606] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-11
+[2022-07-15 19:58:59,606] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-12
+[2022-07-15 19:58:59,606] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-13
+[2022-07-15 19:58:59,606] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-14
+[2022-07-15 19:58:59,607] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-15
+[2022-07-15 19:58:59,607] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-16
+[2022-07-15 19:58:59,607] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-17
+[2022-07-15 19:58:59,607] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-18
+[2022-07-15 19:58:59,607] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-19
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-20
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-21
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-22
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-23
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-24
+[2022-07-15 19:58:59,608] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-25
+[2022-07-15 19:58:59,609] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-26
+[2022-07-15 19:58:59,609] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-27
+[2022-07-15 19:58:59,609] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-28
+[2022-07-15 19:58:59,609] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-29
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-30
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-31
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-32
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-33
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-34
+[2022-07-15 19:58:59,610] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-35
+[2022-07-15 19:58:59,611] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-36
+[2022-07-15 19:58:59,611] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-37
+[2022-07-15 19:58:59,611] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-38
+[2022-07-15 19:58:59,612] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-39
+[2022-07-15 19:58:59,612] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-40
+[2022-07-15 19:58:59,612] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-41
+[2022-07-15 19:58:59,612] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-42
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-43
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-44
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-45
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-46
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-47
+[2022-07-15 19:58:59,613] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-48
+[2022-07-15 19:58:59,614] Helders-MBP.lan/DEBUG/locust.runners: Stopping Greenlet-49
+[2022-07-15 19:58:59,651] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:58:59,869] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:00,043] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:00,282] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:00,478] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:00,666] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:00,878] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:01,139] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:01,412] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:01,786] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:02,069] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:02,454] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:02,739] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:02,920] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:03,152] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:03,432] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:03,609] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:03,860] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:04,044] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:04,348] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:04,566] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:04,847] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:05,215] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:05,429] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:05,741] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:06,033] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:06,232] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:06,463] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:06,667] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:06,887] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:07,052] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:07,259] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:07,455] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:07,611] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:07,848] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:08,057] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:08,263] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:08,520] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:08,681] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:08,898] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:09,065] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:09,296] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:09,465] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:09,696] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:09,802] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,119] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,252] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,499] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,668] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,803] Helders-MBP.lan/DEBUG/urllib3.connectionpool: http://php.docker.localhost:8000 "GET /search HTTP/1.1" 200 379
+[2022-07-15 19:59:10,805] Helders-MBP.lan/DEBUG/locust.runners: 50 users have been stopped, 0 still running
+[2022-07-15 19:59:10,928] Helders-MBP.lan/INFO/locust.main: writing html report to file: reports/leaseWeb_locust_report.html
+[2022-07-15 19:59:10,932] Helders-MBP.lan/DEBUG/locust.main: Running teardowns...
+[2022-07-15 19:59:10,933] Helders-MBP.lan/INFO/locust.main: Shutting down (exit code 0)
+[2022-07-15 19:59:10,933] Helders-MBP.lan/DEBUG/locust.main: Cleaning up runner...

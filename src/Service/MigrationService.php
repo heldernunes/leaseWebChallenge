@@ -59,18 +59,20 @@ class MigrationService
 
     protected function convertCsvToArray(string $filepath): array
     {
-        $assoc_array = [];
-        if (($handle = fopen($filepath, "r")) !== false) {
-            if (($data = fgetcsv($handle, 1000, ";")) !== false) {
+        $assocArray = [];
+        $handle = fopen($filepath, "r");
+        if ($handle !== false) {
+            $data = fgetcsv($handle, 1000, ";");
+            if ($data !== false) {
                 $data[0] = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $data[0]);
                 $keys = $data;
             }
             while (($data = fgetcsv($handle, 1000, ";")) !== false) {
-                $assoc_array[] = array_combine($keys, $data);
+                $assocArray[] = array_combine($keys, $data);
             }
             fclose($handle);
         }
 
-        return $assoc_array;
+        return $assocArray;
     }
 }

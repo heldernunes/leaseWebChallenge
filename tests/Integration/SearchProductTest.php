@@ -57,6 +57,9 @@ class SearchProductTest extends KernelTestCase
         );
     }
 
+    /**
+     * @SuppressWarnings(PHPMD.UndefinedVariable)
+     */
     public function testSearchProduct()
     {
         $options['body'] = '{

@@ -95,5 +95,4 @@ class MigrationServiceTest extends TestCase
             ],
         ];
     }
-
 }

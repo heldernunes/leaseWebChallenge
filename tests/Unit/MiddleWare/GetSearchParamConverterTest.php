@@ -57,8 +57,8 @@ class GetSearchParamConverterTest extends TestCase
                 ['value' => '32GB'],
             ];
         return [
-            [new Request([],[],[],[],[],[], json_encode($request1))],
-            [new Request([],[],[],[],[],[], json_encode($request2))],
+            [new Request([], [], [], [], [], [], json_encode($request1))],
+            [new Request([], [], [], [], [], [], json_encode($request2))],
         ];
     }
 
