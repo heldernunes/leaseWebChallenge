@@ -53,7 +53,6 @@ class MigrationServiceTest extends TestCase
         $result = $this->victim->migrateCsv();
 
         $this->assertEquals($products, $result);
-
     }
 
     public function providerForMigrationService(): array
@@ -65,7 +64,7 @@ class MigrationServiceTest extends TestCase
             ],
             [
                 'isMigrated' => true,
-                'products' => $this->getProducts(),
+                'products' => [],
             ],
         ];
     }

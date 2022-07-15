@@ -2,7 +2,7 @@ parameters:
   databases:
     php:
       driver: pdo_mysql
-      host: 172.26.0.4
+      host: mariadb
       port: 3306
       dbname: php
       user: php

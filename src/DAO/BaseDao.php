@@ -15,7 +15,7 @@ class BaseDao
 
     public function __construct(array $dbConfig)
     {
-        $this->dbConfig = $dbConfig;
+        $this->dbConfig = $dbConfig['php'];
     }
 
     /**
@@ -24,7 +24,7 @@ class BaseDao
     protected function connect(): void
     {
         if (!$this->connection) {
-            $this->connection = DriverManager::getConnection($this->dbConfig['php']);
+            $this->connection = DriverManager::getConnection($this->dbConfig);
         }
     }
 

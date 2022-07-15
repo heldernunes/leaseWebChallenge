@@ -12,7 +12,7 @@ class MigrationBaseDao extends BaseDao
 {
     public function __construct(array $dbConfig)
     {
-        parent::__construct($dbConfig['php']);
+        parent::__construct($dbConfig);
     }
 
     public function insertProduct(array $product): bool
@@ -37,7 +37,7 @@ class MigrationBaseDao extends BaseDao
         ];
 
         try {
-            $result =  $this->execute($sql, $params);
+            $this->execute($sql, $params);
         } catch (\Exception $exception) {
             return false;
         }

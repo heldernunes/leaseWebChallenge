@@ -9,9 +9,9 @@ use App\Model\Response\BaseResponseModel;
 
 class MigrationService
 {
-    protected $migrationBaseDao;
-    protected $projectDir;
-    protected $migrationHelper;
+    protected MigrationBaseDao $migrationBaseDao;
+    protected string $projectDir;
+    protected CriteriaHelper $migrationHelper;
 
     public function __construct(
         MigrationBaseDao $migrationBaseDao,
@@ -25,9 +25,11 @@ class MigrationService
 
     public function migrateCsv()
     {
-        list($products, $files) = $this->convertCsvToArray();
+        $products = [];
+        $files = glob($this->projectDir . "/assets/*.csv");
         foreach ($files as $file) {
             if (!$this->migrationBaseDao->isMigrated($file)) {
+                $products = $this->convertCsvToArray($file);
                 foreach ($products as $product) {
                     $migrationProductModel = new MigrationProductModel();
                     $migrationProductModel->setModel($product['Model']);
@@ -52,29 +54,23 @@ class MigrationService
                 $this->migrationBaseDao->setMigrated($file);
             }
         }
-
         return $products;
     }
 
-    protected function convertCsvToArray(): array
+    protected function convertCsvToArray(string $filepath): array
     {
-        $files = glob($this->projectDir . "/assets/*.csv");
         $assoc_array = [];
-        foreach ($files as $filepath) {
-            if ($handle = fopen($filepath, "r")) {
-                if (($handle = fopen($filepath, "r")) !== false) {
-                    if (($data = fgetcsv($handle, 1000, ";")) !== false) {
-                        $data[0] = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $data[0]);
-                        $keys = $data;
-                    }
-                    while (($data = fgetcsv($handle, 1000, ";")) !== false) {
-                        $assoc_array[] = array_combine($keys, $data);
-                    }
-                    fclose($handle);
-                }
+        if (($handle = fopen($filepath, "r")) !== false) {
+            if (($data = fgetcsv($handle, 1000, ";")) !== false) {
+                $data[0] = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $data[0]);
+                $keys = $data;
             }
+            while (($data = fgetcsv($handle, 1000, ";")) !== false) {
+                $assoc_array[] = array_combine($keys, $data);
+            }
+            fclose($handle);
         }
 
-        return [$assoc_array, $files];
+        return $assoc_array;
     }
 }

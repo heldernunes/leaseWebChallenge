@@ -12,7 +12,7 @@ class StorageCriteria extends BaseCriteria
         $data = $this->data->toArray();
         $start = $this->scaleBreakdown($data['start']);
         $end = $this->scaleBreakdown($data['end']);
-        $sql = "s.`size` Between 
+        $sql = "s.`storageId` Between 
         (SELECT storageId FROM Storage WHERE size = {$start['size']} and scale = '{$start['scale']}') 
         AND (SELECT storageId FROM Storage WHERE size = {$end['size']} and scale = '{$end['scale']}')";
 

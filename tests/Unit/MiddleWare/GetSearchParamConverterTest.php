@@ -21,7 +21,7 @@ class GetSearchParamConverterTest extends TestCase
     public function setUp(): void
     {
         $this->validator = new ValidatorService(
-            Validation::createValidatorBuilder()->enableAnnotationMapping()->getValidator()
+            Validation::createValidatorBuilder()->enableAnnotationMapping(true)->getValidator()
         );
     }
 
