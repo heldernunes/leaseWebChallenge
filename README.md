@@ -105,10 +105,10 @@ composer code-quality-check
 reports can be found inside the storage folder in the root of the project.
 
 ## Performance reports
-We used locust to simulate some load performance the project, you can find the report in this [file]()
+We used locust to simulate some load performance the project, you can find the report in this [file](https://github.com/heldernunes/leaseWebChallenge/blob/main/tests/performance/locust/reports/leaseWeb_locust_report.html)
 
+To run it again, please follow the next steps.
 ```
 cd tests/performance/locust
 locust -f locustfile.py
-
 ```
