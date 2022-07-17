@@ -7,7 +7,7 @@ Next we need to download and configure the symfony project inside the php contai
 cd <docker4php folder path>
 docker exec -it leaseWeb_php bash
 
-git clone git@github.com:heldernunes/leaseWebChallenge.git .
+git clone git@github.com:heldernunes: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/leaseWebChallenge.git .
 composer install
 exit
 ```
@@ -96,3 +96,19 @@ curl --location --request GET 'http://php.docker.localhost:8000/search' \
 ## Running API calls on Postman:
 
 You can find both the request collection and environment setup in the [documentation](https://github.com/heldernunes/leaseWebChallenge/tree/main/documentation) folder on the root of the project. 
+
+## Tests reports:
+you can run each of the following commands to run tests and linters.
+```
+composer code-quality-check
+```
+reports can be found inside the storage folder in the root of the project.
+
+## Performance reports
+We used locust to simulate some load performance the project, you can find the report in this [file]()
+
+```
+cd tests/performance/locust
+locust -f locustfile.py
+
+```
