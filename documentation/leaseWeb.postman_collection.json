@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "5de36ae1-7137-4db2-93ec-0e628c68e68b",
+		"name": "leaseWeb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21557102"
+	},
+	"item": [
+		{
+			"name": "migrate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/index",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"index"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{host}}/webhook/download/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"host\": \"http://milkdesign.pt\",\n    \"file\": \"LeaseWeb_file.xlsx\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/webhook/download/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"webhook",
+						"download",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"storage\": [\n        {\n            \"start\": \"250GB\",\n            \"end\": \"2TB\"\n        }\n    ], \n    \"ram\": [\n        {\"value\": \"24GB\"}\n    ],\n    \"hdd\": \"SATA\",\n    \"location\": \"location\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/search",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/index",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"index"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
