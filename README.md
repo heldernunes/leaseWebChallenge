@@ -1,53 +1,107 @@
-# leaseWebChallenge
+# LeaseWeb Backend Challenge
 
-## Setting up and running the project
-Next we need to download and configure the symfony project inside the php container.
+A Symfony-based REST API built as part of a technical assignment for LeaseWeb. The goal was to create a filterable server listing API that helps customers quickly find and compare server specs and prices.
 
-```
+## 📋 The Challenge
+
+The assignment required building a backend API in PHP/Symfony that:
+- Ingests server data provided as an Excel spreadsheet (no database planned)
+- Exposes a searchable, filterable API for server listings
+- Supports filters for storage range, RAM, HDD type, and location
+- Is unit and functionally tested
+- Is maintainable and well-structured
+
+## 🏗️ Technical Approach
+
+### Data ingestion
+The source data is an Excel file (`assets/LeaseWeb_servers_filters_assignment.csv`) with raw, denormalised server specs. Rather than hardcoding a DB schema, the data is parsed and normalised on import via a migration endpoint, making it straightforward to add new CSV files with the same structure.
+
+### Architecture
+The project follows a clean layered architecture:
+- **Controllers** — thin HTTP layer, delegates to services
+- **Services** — business logic, search and filter orchestration
+- **Repositories** — data access layer, decoupled from controllers
+- **Tests** — unit and functional coverage with PHPUnit
+
+### Search & Filtering
+The API supports combined filters:
+- **Storage** — range slider (e.g. 250GB to 8TB)
+- **RAM** — multi-select checkboxes (e.g. 4GB, 8GB, 24GB)
+- **HDD type** — dropdown (SAS, SATA, SSD)
+- **Location** — dropdown (multiple datacentre locations)
+
+### Code Quality
+- PHPCS (PHP CodeSniffer) for coding standards
+- PHPMD (PHP Mess Detector) for static analysis
+- PHPUnit for unit and functional tests
+- Locust for load/performance testing
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Docker & Docker Compose
+
+### Setup
+
+Clone the repository into your docker4php container:
+
+```bash
 cd <docker4php folder path>
 docker exec -it leaseWeb_php bash
-
-git clone git@github.com:heldernunes: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/leaseWebChallenge.git .
+git clone https://github.com/heldernunes/leaseWebChallenge.git .
 composer install
 exit
 ```
 
-### testing the Project:
-to test this, you can make requests to "http://127.0.0.1:8000/index", or you can add the following url 'http://php.docker.localhost:8000/index' to the end of your hosts file.
+Add the local domain to your hosts file:
 
-Edit using some text editor.
-```
+```bash
 sudo vi /etc/hosts
 ```
-add the following line in the end of the file.
+
+Add this line:
+
 ```
 127.0.0.1 php.docker.localhost
 ```
 
-### Make a test call to your project:
+### Seed the database
 
-```
-curl --location --request GET 'http://php.docker.localhost:8000/index'
-```
-
-#### Setting up the db.
-For the challenge file, we have it already on the assets folder "assets/LeaseWeb_servers_filters_assignment_1.csv", you can add more csv files, as long as it as the same structure.
-
-```
-Model;RAM;HDD;Location;Price
-Dell R210Intel Xeon X3440;16GBDDR3;2x2TBSATA2;AmsterdamAMS-01;€49.99
-```
-Database is already created when the container was started, we just need to fill the Products table.
-
-run the following endpoint:
-
-```
-curl --location --request GET 'http://php.docker.localhost:8000/migrate'
+```bash
+curl --request GET 'http://php.docker.localhost:8000/migrate'
 ```
 
-After this you shoul dbe abble to start making search calls, some examples:
+---
+
+## 📡 API Usage
+
+### Search servers
+
+`GET /search`
+
+All filter parameters are optional and can be combined.
+
+**Filter by RAM and HDD type:**
+```bash
+curl --request GET 'http://php.docker.localhost:8000/search' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "storage": [],
+    "ram": [
+        {"value": "4GB"},
+        {"value": "8GB"},
+        {"value": "24GB"}
+    ],
+    "hdd": "SATA",
+    "location": "AmsterdamAMS-01"
+}'
 ```
-curl --location --request GET 'http://php.docker.localhost:8000/search' \
+
+**Filter by storage range:**
+```bash
+curl --request GET 'http://php.docker.localhost:8000/search' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "storage": [
@@ -55,60 +109,62 @@ curl --location --request GET 'http://php.docker.localhost:8000/search' \
             "start": "250GB",
             "end": "8TB"
         }
-    ], 
-    "ram": [
-        {"value": "4GB"},
-        {"value": "8GB"},
-        {"value": "24GB"}
     ],
-    "hdd": "SATA",
-    "location": "AmsterdamAMS-01"
-}'
-```
-or
-```
-curl --location --request GET 'http://php.docker.localhost:8000/search' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "storage": [], 
-    "ram": [
-        {"value": "4GB"},
-        {"value": "8GB"},
-        {"value": "24GB"}
-    ],
-    "hdd": "SATA",
-    "location": "AmsterdamAMS-01"
-}'
-```
-or
-```
-curl --location --request GET 'http://php.docker.localhost:8000/search' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "storage": [], 
     "ram": [],
-    "hdd": "SATA",
-    "location": "AmsterdamAMS-01"
+    "hdd": "",
+    "location": ""
 }'
-
 ```
 
-## Running API calls on Postman:
+A Postman collection and environment are available in the [`documentation/`](./documentation) folder.
 
-You can find both the request collection and environment setup in the [documentation](https://github.com/heldernunes/leaseWebChallenge/tree/main/documentation) folder on the root of the project. 
+---
 
-## Tests reports:
-you can run each of the following commands to run tests and linters.
-```
+## 🧪 Tests & Quality
+
+Run all tests and linters:
+
+```bash
 composer code-quality-check
 ```
-reports can be found inside the storage folder in the root of the project.
 
-## Performance reports
-We used locust to simulate some load performance the project, you can find the report in this [file](https://github.com/heldernunes/leaseWebChallenge/blob/main/tests/performance/locust/reports/leaseWeb_locust_report.html)
+Reports are generated in the `storage/` folder.
 
-To run it again, please follow the next steps.
-```
+### Performance testing
+
+Load testing is done with [Locust](https://locust.io/):
+
+```bash
 cd tests/performance/locust
 locust -f locustfile.py
 ```
+
+A pre-generated report is available at `tests/performance/locust/reports/leaseWeb_locust_report.html`.
+
+---
+
+## 📁 Project Structure
+
+```
+├── assets/          # Source data (CSV)
+├── config/          # Symfony configuration
+├── documentation/   # Postman collection & environment
+├── public/          # Entry point
+├── src/
+│   ├── Controller/  # HTTP layer
+│   ├── Service/     # Business logic
+│   └── Repository/  # Data access
+├── tests/
+│   ├── Unit/        # Unit tests
+│   ├── Functional/  # Functional tests
+│   └── performance/ # Locust load tests
+├── phpcs.xml.dist   # CodeSniffer config
+├── phpmd.xml        # Mess Detector config
+└── phpunit.xml      # PHPUnit config
+```
+
+---
+
+## 📄 Assignment Brief
+
+The original assignment brief is available in [`documentation/PROG-TechnicalAssignmentBackend.pdf`](./documentation/PROG-TechnicalAssignmentBackend.pdf).
